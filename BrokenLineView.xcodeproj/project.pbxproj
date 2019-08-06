@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2023C022F9C76A004BBF10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2023BF22F9C76A004BBF10 /* AppDelegate.m */; };
+		2A2023C322F9C76A004BBF10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2023C222F9C76A004BBF10 /* ViewController.m */; };
+		2A2023C622F9C76A004BBF10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2023C422F9C76A004BBF10 /* Main.storyboard */; };
+		2A2023C822F9C76D004BBF10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2023C722F9C76D004BBF10 /* Assets.xcassets */; };
+		2A2023CB22F9C76D004BBF10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2023C922F9C76D004BBF10 /* LaunchScreen.storyboard */; };
+		2A2023CE22F9C76D004BBF10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2023CD22F9C76D004BBF10 /* main.m */; };
+		2A2023D822F9C76D004BBF10 /* BrokenLineViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2023D722F9C76D004BBF10 /* BrokenLineViewTests.m */; };
+		2A2023E322F9C76D004BBF10 /* BrokenLineViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2023E222F9C76D004BBF10 /* BrokenLineViewUITests.m */; };
+		2A2023F222F9C798004BBF10 /* GradientBrokenLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2023F022F9C798004BBF10 /* GradientBrokenLineView.m */; };
+		2A2023F522F9C7F6004BBF10 /* UILabel+AttributeSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2023F422F9C7F6004BBF10 /* UILabel+AttributeSet.m */; };
+		2A2023F822F9C82A004BBF10 /* UIView+layoutSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2023F722F9C82A004BBF10 /* UIView+layoutSize.m */; };
+		2A2023FB22F9C854004BBF10 /* GradientBrokenLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2023FA22F9C854004BBF10 /* GradientBrokenLineModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A2023D422F9C76D004BBF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A2023B322F9C76A004BBF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2023BA22F9C76A004BBF10;
+			remoteInfo = BrokenLineView;
+		};
+		2A2023DF22F9C76D004BBF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A2023B322F9C76A004BBF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2023BA22F9C76A004BBF10;
+			remoteInfo = BrokenLineView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A2023BB22F9C76A004BBF10 /* BrokenLineView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokenLineView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2023BE22F9C76A004BBF10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A2023BF22F9C76A004BBF10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A2023C122F9C76A004BBF10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A2023C222F9C76A004BBF10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A2023C522F9C76A004BBF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A2023C722F9C76D004BBF10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A2023CA22F9C76D004BBF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A2023CC22F9C76D004BBF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2023CD22F9C76D004BBF10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A2023D322F9C76D004BBF10 /* BrokenLineViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokenLineViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2023D722F9C76D004BBF10 /* BrokenLineViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokenLineViewTests.m; sourceTree = "<group>"; };
+		2A2023D922F9C76D004BBF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2023DE22F9C76D004BBF10 /* BrokenLineViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokenLineViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2023E222F9C76D004BBF10 /* BrokenLineViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokenLineViewUITests.m; sourceTree = "<group>"; };
+		2A2023E422F9C76D004BBF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2023F022F9C798004BBF10 /* GradientBrokenLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientBrokenLineView.m; sourceTree = "<group>"; };
+		2A2023F122F9C798004BBF10 /* GradientBrokenLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientBrokenLineView.h; sourceTree = "<group>"; };
+		2A2023F322F9C7F6004BBF10 /* UILabel+AttributeSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AttributeSet.h"; sourceTree = "<group>"; };
+		2A2023F422F9C7F6004BBF10 /* UILabel+AttributeSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AttributeSet.m"; sourceTree = "<group>"; };
+		2A2023F622F9C82A004BBF10 /* UIView+layoutSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+layoutSize.h"; sourceTree = "<group>"; };
+		2A2023F722F9C82A004BBF10 /* UIView+layoutSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+layoutSize.m"; sourceTree = "<group>"; };
+		2A2023F922F9C854004BBF10 /* GradientBrokenLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientBrokenLineModel.h; sourceTree = "<group>"; };
+		2A2023FA22F9C854004BBF10 /* GradientBrokenLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientBrokenLineModel.m; sourceTree = "<group>"; };
+		2A2023FC22F9C9C9004BBF10 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A2023B822F9C76A004BBF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2023D022F9C76D004BBF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2023DB22F9C76D004BBF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2023B222F9C76A004BBF10 = {
+			isa = PBXGroup;
+			children = (
+				2A2023BD22F9C76A004BBF10 /* BrokenLineView */,
+				2A2023D622F9C76D004BBF10 /* BrokenLineViewTests */,
+				2A2023E122F9C76D004BBF10 /* BrokenLineViewUITests */,
+				2A2023BC22F9C76A004BBF10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A2023BC22F9C76A004BBF10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A2023BB22F9C76A004BBF10 /* BrokenLineView.app */,
+				2A2023D322F9C76D004BBF10 /* BrokenLineViewTests.xctest */,
+				2A2023DE22F9C76D004BBF10 /* BrokenLineViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A2023BD22F9C76A004BBF10 /* BrokenLineView */ = {
+			isa = PBXGroup;
+			children = (
+				2A2023FD22F9CA0C004BBF10 /* Code */,
+				2A2023BE22F9C76A004BBF10 /* AppDelegate.h */,
+				2A2023BF22F9C76A004BBF10 /* AppDelegate.m */,
+				2A2023C122F9C76A004BBF10 /* ViewController.h */,
+				2A2023C222F9C76A004BBF10 /* ViewController.m */,
+				2A2023C422F9C76A004BBF10 /* Main.storyboard */,
+				2A2023C722F9C76D004BBF10 /* Assets.xcassets */,
+				2A2023C922F9C76D004BBF10 /* LaunchScreen.storyboard */,
+				2A2023CC22F9C76D004BBF10 /* Info.plist */,
+				2A2023CD22F9C76D004BBF10 /* main.m */,
+			);
+			path = BrokenLineView;
+			sourceTree = "<group>";
+		};
+		2A2023D622F9C76D004BBF10 /* BrokenLineViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A2023D722F9C76D004BBF10 /* BrokenLineViewTests.m */,
+				2A2023D922F9C76D004BBF10 /* Info.plist */,
+			);
+			path = BrokenLineViewTests;
+			sourceTree = "<group>";
+		};
+		2A2023E122F9C76D004BBF10 /* BrokenLineViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A2023E222F9C76D004BBF10 /* BrokenLineViewUITests.m */,
+				2A2023E422F9C76D004BBF10 /* Info.plist */,
+			);
+			path = BrokenLineViewUITests;
+			sourceTree = "<group>";
+		};
+		2A2023FD22F9CA0C004BBF10 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				2A2023F622F9C82A004BBF10 /* UIView+layoutSize.h */,
+				2A2023F722F9C82A004BBF10 /* UIView+layoutSize.m */,
+				2A2023F322F9C7F6004BBF10 /* UILabel+AttributeSet.h */,
+				2A2023F422F9C7F6004BBF10 /* UILabel+AttributeSet.m */,
+				2A2023F922F9C854004BBF10 /* GradientBrokenLineModel.h */,
+				2A2023FA22F9C854004BBF10 /* GradientBrokenLineModel.m */,
+				2A2023F122F9C798004BBF10 /* GradientBrokenLineView.h */,
+				2A2023F022F9C798004BBF10 /* GradientBrokenLineView.m */,
+				2A2023FC22F9C9C9004BBF10 /* Define.h */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A2023BA22F9C76A004BBF10 /* BrokenLineView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2023E722F9C76D004BBF10 /* Build configuration list for PBXNativeTarget "BrokenLineView" */;
+			buildPhases = (
+				2A2023B722F9C76A004BBF10 /* Sources */,
+				2A2023B822F9C76A004BBF10 /* Frameworks */,
+				2A2023B922F9C76A004BBF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrokenLineView;
+			productName = BrokenLineView;
+			productReference = 2A2023BB22F9C76A004BBF10 /* BrokenLineView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A2023D222F9C76D004BBF10 /* BrokenLineViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2023EA22F9C76D004BBF10 /* Build configuration list for PBXNativeTarget "BrokenLineViewTests" */;
+			buildPhases = (
+				2A2023CF22F9C76D004BBF10 /* Sources */,
+				2A2023D022F9C76D004BBF10 /* Frameworks */,
+				2A2023D122F9C76D004BBF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A2023D522F9C76D004BBF10 /* PBXTargetDependency */,
+			);
+			name = BrokenLineViewTests;
+			productName = BrokenLineViewTests;
+			productReference = 2A2023D322F9C76D004BBF10 /* BrokenLineViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A2023DD22F9C76D004BBF10 /* BrokenLineViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2023ED22F9C76D004BBF10 /* Build configuration list for PBXNativeTarget "BrokenLineViewUITests" */;
+			buildPhases = (
+				2A2023DA22F9C76D004BBF10 /* Sources */,
+				2A2023DB22F9C76D004BBF10 /* Frameworks */,
+				2A2023DC22F9C76D004BBF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A2023E022F9C76D004BBF10 /* PBXTargetDependency */,
+			);
+			name = BrokenLineViewUITests;
+			productName = BrokenLineViewUITests;
+			productReference = 2A2023DE22F9C76D004BBF10 /* BrokenLineViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A2023B322F9C76A004BBF10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "邱云翔";
+				TargetAttributes = {
+					2A2023BA22F9C76A004BBF10 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					2A2023D222F9C76D004BBF10 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2A2023BA22F9C76A004BBF10;
+					};
+					2A2023DD22F9C76D004BBF10 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2A2023BA22F9C76A004BBF10;
+					};
+				};
+			};
+			buildConfigurationList = 2A2023B622F9C76A004BBF10 /* Build configuration list for PBXProject "BrokenLineView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A2023B222F9C76A004BBF10;
+			productRefGroup = 2A2023BC22F9C76A004BBF10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A2023BA22F9C76A004BBF10 /* BrokenLineView */,
+				2A2023D222F9C76D004BBF10 /* BrokenLineViewTests */,
+				2A2023DD22F9C76D004BBF10 /* BrokenLineViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A2023B922F9C76A004BBF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2023CB22F9C76D004BBF10 /* LaunchScreen.storyboard in Resources */,
+				2A2023C822F9C76D004BBF10 /* Assets.xcassets in Resources */,
+				2A2023C622F9C76A004BBF10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2023D122F9C76D004BBF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2023DC22F9C76D004BBF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A2023B722F9C76A004BBF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2023C322F9C76A004BBF10 /* ViewController.m in Sources */,
+				2A2023F222F9C798004BBF10 /* GradientBrokenLineView.m in Sources */,
+				2A2023FB22F9C854004BBF10 /* GradientBrokenLineModel.m in Sources */,
+				2A2023CE22F9C76D004BBF10 /* main.m in Sources */,
+				2A2023F822F9C82A004BBF10 /* UIView+layoutSize.m in Sources */,
+				2A2023F522F9C7F6004BBF10 /* UILabel+AttributeSet.m in Sources */,
+				2A2023C022F9C76A004BBF10 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2023CF22F9C76D004BBF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2023D822F9C76D004BBF10 /* BrokenLineViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2023DA22F9C76D004BBF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2023E322F9C76D004BBF10 /* BrokenLineViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A2023D522F9C76D004BBF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2023BA22F9C76A004BBF10 /* BrokenLineView */;
+			targetProxy = 2A2023D422F9C76D004BBF10 /* PBXContainerItemProxy */;
+		};
+		2A2023E022F9C76D004BBF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2023BA22F9C76A004BBF10 /* BrokenLineView */;
+			targetProxy = 2A2023DF22F9C76D004BBF10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A2023C422F9C76A004BBF10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2023C522F9C76A004BBF10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A2023C922F9C76D004BBF10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2023CA22F9C76D004BBF10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A2023E522F9C76D004BBF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A2023E622F9C76D004BBF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A2023E822F9C76D004BBF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QGE9G28H2;
+				INFOPLIST_FILE = BrokenLineView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qiuyunxiang.BrokenLineView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A2023E922F9C76D004BBF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QGE9G28H2;
+				INFOPLIST_FILE = BrokenLineView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qiuyunxiang.BrokenLineView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A2023EB22F9C76D004BBF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QGE9G28H2;
+				INFOPLIST_FILE = BrokenLineViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qiuyunxiang.BrokenLineViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrokenLineView.app/BrokenLineView";
+			};
+			name = Debug;
+		};
+		2A2023EC22F9C76D004BBF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QGE9G28H2;
+				INFOPLIST_FILE = BrokenLineViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qiuyunxiang.BrokenLineViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrokenLineView.app/BrokenLineView";
+			};
+			name = Release;
+		};
+		2A2023EE22F9C76D004BBF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QGE9G28H2;
+				INFOPLIST_FILE = BrokenLineViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qiuyunxiang.BrokenLineViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrokenLineView;
+			};
+			name = Debug;
+		};
+		2A2023EF22F9C76D004BBF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QGE9G28H2;
+				INFOPLIST_FILE = BrokenLineViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qiuyunxiang.BrokenLineViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrokenLineView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A2023B622F9C76A004BBF10 /* Build configuration list for PBXProject "BrokenLineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2023E522F9C76D004BBF10 /* Debug */,
+				2A2023E622F9C76D004BBF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2023E722F9C76D004BBF10 /* Build configuration list for PBXNativeTarget "BrokenLineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2023E822F9C76D004BBF10 /* Debug */,
+				2A2023E922F9C76D004BBF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2023EA22F9C76D004BBF10 /* Build configuration list for PBXNativeTarget "BrokenLineViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2023EB22F9C76D004BBF10 /* Debug */,
+				2A2023EC22F9C76D004BBF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2023ED22F9C76D004BBF10 /* Build configuration list for PBXNativeTarget "BrokenLineViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2023EE22F9C76D004BBF10 /* Debug */,
+				2A2023EF22F9C76D004BBF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A2023B322F9C76A004BBF10 /* Project object */;
+}
